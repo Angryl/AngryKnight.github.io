@@ -1,4 +1,4 @@
-title: Welcome to Knights homepage
+# Welcome to Knights homepage
 
 here feel free to ask any tech related problems. you cand share your ideas. 
 Lets do this....
@@ -7,26 +7,27 @@ You can use the [editor on GitHub](https://github.com/Angryknight/AngryKnight.gi
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### logic 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+//Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1. sum of 5 numbers using array
 ```markdown
 Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+{
+int num[5];
+int i,total=0;
+clrscr();
+for(i=0;i<5;i++)
+{
+printf("enter the num %d",i+1);
+scanf("%d",&num[i]);
+}
+for(i=0;i<5;i++)
+{
+total=total+num[i];
+}
+printf("sum of 5 numbers is %d",total);
+}
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
