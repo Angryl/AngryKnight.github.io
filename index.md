@@ -1,4 +1,7 @@
-## Welcome to GitHub Pages
+title: Welcome to Knights homepage
+
+here feel free to ask any tech related problems. you cand share your ideas. 
+Lets do this....
 
 You can use the [editor on GitHub](https://github.com/Angryknight/AngryKnight.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
